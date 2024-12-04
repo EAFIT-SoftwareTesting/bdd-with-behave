@@ -3,7 +3,13 @@
   "image": "mcr.microsoft.com/devcontainers/python:3.10",
   "customizations": {
     "vscode": {
-      "extensions": ["ms-python.python", "alexkrechik.cucumberautocomplete"]
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      },
+      "extensions": [
+        "ms-python.python", 
+        "alexkrechik.cucumberautocomplete",
+        "streetsidesoftware.code-spell-checker"]
     }
   },
   "postCreateCommand": "pip install behave requests behave-html-reporter"
