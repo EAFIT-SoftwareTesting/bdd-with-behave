@@ -6,5 +6,5 @@
       "extensions": ["ms-python.python", "alexkrechik.cucumberautocomplete"]
     }
   },
-  "postCreateCommand": "pip install behave"
+  "postCreateCommand": "pip install behave requests behave-html-reporter"
 }
